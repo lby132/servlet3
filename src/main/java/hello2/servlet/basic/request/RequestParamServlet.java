@@ -23,7 +23,7 @@ public class RequestParamServlet extends HttpServlet {
 
         request.getParameterNames().asIterator()
                 .forEachRemaining(parameterName -> System.out.println(parameterName + "=" + request.getParameter(parameterName)));
-        System.out.println("[전체 파리머터 조회] - end");
+        System.out.println("[전체 파리미터 조회] - end");
         System.out.println();
 
         System.out.println("[단일 파라미터 조회]");
